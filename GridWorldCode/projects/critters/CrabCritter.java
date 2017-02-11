@@ -57,20 +57,20 @@ public class CrabCritter extends Critter {
 	 * @return list of empty locations immediately to the right and to the left
 	 */
 	public ArrayList<Location> getMoveLocations() {
-	ArrayList<Location> locs = new ArrayList<Location>();
-	for (int i = Location.NORTH; i < 360;i += 90){
-		
-	}
-	
-		return locs;
-		/*	ArrayList<Location> locs = new ArrayList<Location>();
-		int[] dirs = { Location.LEFT, Location.RIGHT };
-		for (Location loc : getLocationsInDirections(dirs))
-			if (getGrid().get(loc) == null)
-				locs.add(loc);
+		ArrayList<Location> locs = new ArrayList<Location>();
+		for (int i = Location.NORTH; i < 360; i += 90) {
+
+		}
 
 		return locs;
-		*/
+		/*
+		 * ArrayList<Location> locs = new ArrayList<Location>(); int[] dirs = {
+		 * Location.LEFT, Location.RIGHT }; for (Location loc :
+		 * getLocationsInDirections(dirs)) if (getGrid().get(loc) == null)
+		 * locs.add(loc);
+		 * 
+		 * return locs;
+		 */
 	}
 
 	/**

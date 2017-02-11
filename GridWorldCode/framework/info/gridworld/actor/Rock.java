@@ -24,34 +24,31 @@ import java.awt.Color;
  * The API of this class is testable on the AP CS A and AB exams.
  */
 
-public class Rock extends Actor
-{
-    
-    
-    private static final Color DEFAULT_COLOR = Color.BLACK;
+public class Rock extends Actor {
 
-    /**
-     * Constructs a black rock.
-     */
-    public Rock()
-    {
-        setColor(DEFAULT_COLOR);
-    }
+	private static final Color DEFAULT_COLOR = Color.BLACK;
 
-    /**
-     * Constructs a rock of a given color.
-     * @param rockColor the color of this rock
-     */
-    public Rock(Color rockColor)
-    {
-        setColor(rockColor);
-    }
+	/**
+	 * Constructs a black rock.
+	 */
+	public Rock() {
+		setColor(DEFAULT_COLOR);
+	}
 
-    /**
-     * Overrides the <code>act</code> method in the <code>Actor</code> class
-     * to do nothing.
-     */
-    public void act()
-    {
-    }
+	/**
+	 * Constructs a rock of a given color.
+	 * 
+	 * @param rockColor
+	 *            the color of this rock
+	 */
+	public Rock(Color rockColor) {
+		setColor(rockColor);
+	}
+
+	/**
+	 * Overrides the <code>act</code> method in the <code>Actor</code> class to
+	 * do nothing.
+	 */
+	public void act() {
+	}
 }
